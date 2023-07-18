@@ -1,9 +1,9 @@
-# So_Long
+![](https://github.com/a-boring-man/So_Long/blob/main/100_score_icon.png)
 
-A early 42 Project
+# So_Long_Linux
 
-the goal was to create a minimalist 2D game using texture and a map system.
+The goal of this early 42 project was to create a minimalist 2D game using sprites and a map system. It was the first graphical project at 42 that was made to run with the 42 minimalist graphics library, 42minilibx, on macOS.
 
-the first graphical project of 42 made to run with the 42 minimalist graphic library 42minilibx on Mac.
+This was my first time using structs, and it was also my first project requiring some level of file and code organization to respect the 42 norm. Overall, it was a fun experience.
 
-first time I used struct, this was also my first project requiering some level of file and code organisation to respect the norm imposed by 42, overall a fun experience.
+For some reason, this Linux port severely limits the game's performance and graphics.
