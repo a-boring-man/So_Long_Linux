@@ -1,5 +1,9 @@
 # Prerequisites
 *.d
+.object
+.object_bonus
+infile
+outfile
 
 # Object files
 *.o
@@ -27,6 +31,7 @@
 *.so
 *.so.*
 *.dylib
+lien_sgoinfre
 
 # Executables
 *.exe
@@ -35,12 +40,15 @@
 *.i*86
 *.x86_64
 *.hex
+main.c
+Makefile.gen
 
 # Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
+*.txt
 
 # Kernel Module Compile Results
 *.mod*
