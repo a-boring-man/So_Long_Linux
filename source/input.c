@@ -6,7 +6,7 @@
 /*   By: jrinna <jrinna@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 14:17:05 by jrinna            #+#    #+#             */
-/*   Updated: 2023/07/18 11:44:56 by jrinna           ###   ########lyon.fr   */
+/*   Updated: 2023/07/19 14:48:36 by jrinna           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,7 +105,7 @@ int	ft_input(int key, void *para)
 	t_vars	*ref;
 
 	ref = (t_vars *)para;
-	mlx_clear_window(ref->mlx, ref->win.ptr);
+	//mlx_clear_window(ref->mlx, ref->win.ptr);
 	if (key == K_D)
 		ft_move_right(ref);
 	if (key == K_A)
